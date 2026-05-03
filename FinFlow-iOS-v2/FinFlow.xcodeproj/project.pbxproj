@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* FinFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000101 /* FinFlowApp.swift */; };
+		AA000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000102 /* Models.swift */; };
+		AA000003 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000103 /* APIService.swift */; };
+		AA000004 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000104 /* AuthViewModel.swift */; };
+		AA000005 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000105 /* ViewModels.swift */; };
+		AA000006 /* AuthViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000106 /* AuthViews.swift */; };
+		AA000007 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000107 /* DashboardView.swift */; };
+		AA000008 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000108 /* TransactionsView.swift */; };
+		AA000009 /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000109 /* BudgetsView.swift */; };
+		AA000010 /* ProfileNotifViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000110 /* ProfileNotifViews.swift */; };
+		AA000011 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000111 /* Components.swift */; };
+		AA000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000112 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000101 /* FinFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinFlowApp.swift; sourceTree = "<group>"; };
+		AA000102 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA000103 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		AA000104 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		AA000105 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		AA000106 /* AuthViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViews.swift; sourceTree = "<group>"; };
+		AA000107 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA000108 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		AA000109 /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
+		AA000110 /* ProfileNotifViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNotifViews.swift; sourceTree = "<group>"; };
+		AA000111 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		AA000112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA000113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA000200 /* FinFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA001000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA002000 = {
+			isa = PBXGroup;
+			children = (
+				AA002001 /* FinFlow */,
+				AA002002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA002001 /* FinFlow */ = {
+			isa = PBXGroup;
+			children = (
+				AA000101 /* FinFlowApp.swift */,
+				AA000113 /* Info.plist */,
+				AA000112 /* Assets.xcassets */,
+				AA002010 /* Models */,
+				AA002011 /* Services */,
+				AA002012 /* ViewModels */,
+				AA002013 /* Views */,
+			);
+			path = FinFlow;
+			sourceTree = "<group>";
+		};
+		AA002010 /* Models */ = {
+			isa = PBXGroup;
+			children = (AA000102 /* Models.swift */);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA002011 /* Services */ = {
+			isa = PBXGroup;
+			children = (AA000103 /* APIService.swift */);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA002012 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AA000104 /* AuthViewModel.swift */,
+				AA000105 /* ViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AA002013 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA000106 /* AuthViews.swift */,
+				AA000107 /* DashboardView.swift */,
+				AA000108 /* TransactionsView.swift */,
+				AA000109 /* BudgetsView.swift */,
+				AA000110 /* ProfileNotifViews.swift */,
+				AA000111 /* Components.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA002002 /* Products */ = {
+			isa = PBXGroup;
+			children = (AA000200 /* FinFlow.app */);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA003000 /* FinFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA004000 /* Build configuration list for PBXNativeTarget "FinFlow" */;
+			buildPhases = (
+				AA005000 /* Sources */,
+				AA001000 /* Frameworks */,
+				AA006000 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = FinFlow;
+			productName = FinFlow;
+			productReference = AA000200 /* FinFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA007000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA003000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA004001 /* Build configuration list for PBXProject "FinFlow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = AA002000;
+			productRefGroup = AA002002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (AA003000 /* FinFlow */);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA006000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA005000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001 /* FinFlowApp.swift in Sources */,
+				AA000002 /* Models.swift in Sources */,
+				AA000003 /* APIService.swift in Sources */,
+				AA000004 /* AuthViewModel.swift in Sources */,
+				AA000005 /* ViewModels.swift in Sources */,
+				AA000006 /* AuthViews.swift in Sources */,
+				AA000007 /* DashboardView.swift in Sources */,
+				AA000008 /* TransactionsView.swift in Sources */,
+				AA000009 /* BudgetsView.swift in Sources */,
+				AA000010 /* ProfileNotifViews.swift in Sources */,
+				AA000011 /* Components.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA008000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA008001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA008002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentGreen;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FinFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.finflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA008003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentGreen;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FinFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.finflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA004001 /* Build configuration list for PBXProject "FinFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (AA008000 /* Debug */, AA008001 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA004000 /* Build configuration list for PBXNativeTarget "FinFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (AA008002 /* Debug */, AA008003 /* Release */);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA007000 /* Project object */;
+}
